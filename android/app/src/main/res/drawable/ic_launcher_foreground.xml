@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer soft glow ring -->
+    <path android:pathData="M54,54m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="32"
+                android:startColor="#409B5CF0"
+                android:endColor="#009B5CF0" />
+        </aapt:attr>
+    </path>
+
+    <!-- Mid ring -->
+    <path android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="22"
+                android:startColor="#C0B58CFF"
+                android:endColor="#8E5CF0" />
+        </aapt:attr>
+    </path>
+
+    <!-- Bright inner core -->
+    <path android:pathData="M54,54m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="9"
+                android:startColor="#FFFFFFFF"
+                android:endColor="#FFD9C2FF" />
+        </aapt:attr>
+    </path>
+</vector>
